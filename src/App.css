@@ -1,0 +1,79 @@
+.header-bar{
+  background: linear-gradient(to right, #060E20, #21203E);
+  color: aliceblue;
+  margin-top: 0px;
+  text-align: center;
+  padding: 16px;
+}
+body{
+  margin:0;
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  color: aliceblue;
+}
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #0d162a, #21203E);
+}
+.add-project-form label{
+  display: flex;
+  flex-direction: column;
+}
+.form-container{
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.add-project-form{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.form-input{
+  width: 300px;
+  height:40px;
+  border-radius: 6px;
+  padding-left: 8px;
+}
+.add-btn{
+  max-width: 200px;
+  height: 44px;
+  border: none;
+  background-color: blueviolet;
+  color: white;
+  font-weight: 700;
+  border-radius: 4px;
+}
+.projects-view{
+  max-width:400px;
+  background: linear-gradient(to right, #192745, #21203E);
+  padding: 80px;
+}
+.projects-container{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 12px;
+}
+.img{
+  width: 80px;
+  height:80px
+}
+.card{
+  display: flex;
+  gap: 12px;
+}
+.card-body{
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  justify-content: center;
+}
+.card-item{
+  margin: 0px;
+}
